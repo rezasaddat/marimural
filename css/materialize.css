@@ -3371,7 +3371,7 @@ nav ul a span.badge {
 
 .container {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1200px;
   width: 90%;
 }
 
@@ -4212,7 +4212,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  /*background-color: #ee6e73;*/
+  background-color: #fff;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4276,7 +4276,7 @@ nav .brand-logo {
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
-  margin-left: 264px;
+  margin-left: 220px;
 }
 
 nav .brand-logo.center {
@@ -4287,7 +4287,7 @@ nav .brand-logo.center {
 
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
-    left: 50%;
+    left: -10%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
