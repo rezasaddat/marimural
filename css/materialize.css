@@ -2151,6 +2151,8 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
+  width: 1348px;
+  height: 900px;
   /* 2 */
 }
 
@@ -2159,10 +2161,10 @@ html {
  */
 body {
   margin: 0;
-  background-image: url('../img/marimural.jpg');
-  background-size: 100%;
+  background-image: url('../img/Artboard 1.png');
+  background-size: auto;
   background-repeat: no-repeat;
-  width: 1250px;
+  
 }
 
 /* HTML5 display definitions
@@ -2574,18 +2576,20 @@ a {
 
 .definemari {
   text-decoration: none;
-  margin-top: 3%;
+  margin-top: 0.5%;
   text-align: justify;
-  font-size: 12px;
-  width: 250px;
+  /*font-size: 12px;*/
+  letter-spacing: -0.5px;
+  word-spacing: 1px;
+  width: 300px;
   float: right;
-  margin-right: 3.5%
+  /*margin-right: 3.5%*/
 }
 
 .btn-mari {
   float: right;
-  margin-right: 9.2%;
-  margin-top: 7.3%   
+  margin-right: 5.7%;
+  margin-top: 10.3%;
 }
 
 .valign-wrapper {
@@ -3302,6 +3306,8 @@ td, th {
 
 .right {
   float: right !important;
+  margin-right: -22px;
+  margin-top: 2px;
 }
 
 .no-select, input[type=range],
@@ -4268,7 +4274,7 @@ nav i.material-icons {
 }
 
 nav .nav-wrapper {
-  margin-top: 20px;
+  margin-top: 30px;
   position: relative;
   height: 100%;
 }
@@ -4299,7 +4305,6 @@ nav .brand-logo {
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
-  margin-left: 298px;
 }
 
 nav .brand-logo.center {
@@ -4451,32 +4456,32 @@ nav .input-field label.active i {
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff");
+  font-family: "helvetica";
+  src: local(helvetica Thin), url("../fonts/helvetica/helvetica-Thin.woff2") format("woff2"), url("../fonts/helvetica/helvetica-Thin.woff") format("woff");
   font-weight: 100;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff");
+  font-family: "helvetica";
+  src: local(helvetica Light), url("../fonts/helvetica/helvetica-Light.woff2") format("woff2"), url("../fonts/helvetica/helvetica-Light.woff") format("woff");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff");
+  font-family: "helvetica";
+  src: local(helvetica Regular), url("../fonts/helvetica/helvetica-Regular.woff2") format("woff2"), url("../fonts/helvetica/helvetica-Regular.woff") format("woff");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: local(Roboto Medium), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");
+  font-family: "helvetica";
+  src: local(helvetica Medium), url("../fonts/helvetica/helvetica-Medium.woff2") format("woff2"), url("../fonts/helvetica/helvetica-Medium.woff") format("woff");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: local(Roboto Bold), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");
+  font-family: "helvetica";
+  src: local(helvetica Bold), url("../fonts/helvetica/helvetica-Bold.woff2") format("woff2"), url("../fonts/helvetica/helvetica-Bold.woff") format("woff");
   font-weight: 700;
 }
 
@@ -4486,7 +4491,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: "helvetica", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -5451,8 +5456,9 @@ button.btn-floating {
 }
 
 .btn-large {
-  height: 54px;
+  height: 69px;
   line-height: 54px;
+  width: 19%;
 }
 
 .btn-large i {
