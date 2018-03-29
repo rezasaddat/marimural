@@ -2159,7 +2159,6 @@ html {
  */
 body {
   margin: 0;
-  background-image: url('../img/Artboard 1.png');
 }
 
 /* HTML5 display definitions
@@ -9419,4 +9418,24 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .btn-mari {
   margin-right: 145px;
+}
+
+.mariload{
+  position: relative;
+  margin: 0;
+  top: 50%;
+  height: 500px;
+  /*transform: translate(-50%, -50%);*/
+}
+
+.mariloadpos {
+  margin-left: 600px;
+}
+
+.contentmari {
+  display: none;
+  background-image: url('../img/Artboard 1.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 700px;
 }
