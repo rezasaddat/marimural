@@ -1,5 +1,5 @@
 $(function() {
-	$('.mariload').fadeOut(2500, 
+	$('.mariload').fadeOut(3000, 
 		function () {
 			$('.contentmari').fadeIn(1500);
 		}
